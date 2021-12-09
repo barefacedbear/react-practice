@@ -1,0 +1,29 @@
+.NewExpense-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.NewExpense-control {
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+}
+
+.NewExpense-control label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.NewExpense-control input {
+    font: inherit;
+    padding: .5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.NewExpense-actions { text-align: right; }
